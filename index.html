@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-left">Perfil</div>
+        <div class="nav-right">
+            <a href="#">Inicio</a>
+            <a href="#">Mi Perfil</a>
+            <a href="#">Encontrar Conexiones</a>
+            <button class="logout-btn">Cerrar Sesión</button>
+        </div>
+    </nav>
+
+    <div class="container">
+
+        <div class="main-profile">
+            <div class="card">
+                <div class="card-header"></div>
+                <div class="card-body">
+                    <img src="image2.png" alt="Profile Picture" class="profile-img">
+                    <h1 class="name">Joao Nuñez</h1>
+                    <p class="location">Junior Full Stack Developer</p>
+                    <p class="description">
+                        Experto en Flask y SQLAlchemy | Desarrollo de aplicaciones robustas
+                    </p>
+                    <p class="bio">
+                        Apasionado por construir aplicaciones escalables con una buena implementación
+                        de JWT para autenticación segura.
+                    </p>
+                    <a href="#" class="edit-link">Edit profile</a>
+                </div>
+            </div>
+
+
+            <div class="education">
+                <h3>Education</h3>
+                <p>Coding Dojo - Bootcamp de Desarrollo Full Stack</p>
+                <p>Dic 2019 - Mar 2020</p>
+                <p>Triple cinturón negro en Python, Flask y SQLAlchemy</p>
+            </div>
+        </div>
+
+
+        <div class="side-section">
+
+            <div class="connection-requests">
+                <h3>Solicitudes de Conexión (2)</h3>
+                <div class="request">
+                    <img src="image2.png" alt="Kai Schröder" class="small-img">
+                    <p>Kai Schröder</p>
+                    <button class="accept-btn">✔</button>
+                    <button class="decline-btn">✖</button>
+                </div>
+                <div class="request">
+                    <img src="image2.png" alt="Amira El-Masry" class="small-img">
+                    <p>Amira El-Masry</p>
+                    <button class="accept-btn">✔</button>
+                    <button class="decline-btn">✖</button>
+                </div>
+            </div>
+
+            <div class="connections">
+                <h3>Tus Conexiones (500+)</h3>
+                <ul>
+                    <li><img src="image2.png" class="small-img" alt="Adrien Desplatz"> Adrien Desplatz</li>
+                    <li><img src="image2.png" class="small-img" alt="Aarav Patel"> Aarav Patel</li>
+                    <li><img src="image2.png" class="small-img" alt="Lina Kovačević"> Lina Kovačević</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

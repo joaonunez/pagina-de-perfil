@@ -1,0 +1,151 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    gap: 20px;
+}
+
+
+.navbar {
+    background-color: #343a40;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    align-items: center;
+}
+
+.nav-left {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.nav-right a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+.logout-btn {
+    background-color: #17a2b8;
+    color: #ffffff;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.main-profile {
+    flex: 2;
+}
+
+.card {
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 800px;
+}
+
+.card-header {
+    background-color: #17a2b8;
+    height: 100px;
+}
+
+.card-body {
+    text-align: center;
+    padding: 20px;
+}
+
+.profile-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-top: -60px;
+    border: 5px solid #ffffff;
+}
+
+.edit-link {
+    display: inline-block;
+    margin-top: 15px;
+    color: #17a2b8;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+
+.side-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.connection-requests, .connections {
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+}
+
+h3 {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+
+.request, .connections ul li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.small-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.accept-btn, .decline-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+.accept-btn {
+    color: green;
+}
+
+.decline-btn {
+    color: red;
+}
+
+.education {
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    margin-top: 20px;
+}
+
+.education h3 {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.education p {
+    margin: 5px 0;
+    color: #6c757d;
+    font-size: 0.95rem;
+}
